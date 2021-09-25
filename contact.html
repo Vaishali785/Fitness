@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- This is created by Vaishali on 16th Jan 2021 -->
+<html lang="en">
+
+<head>
+	<link  rel="stylesheet" href="./css/styles.css">
+	<title>Forward Fitness Club</title> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+</head>
+<body>
+
+	<div id="container">
+	<!-- Use the header area for logo and website name -->
+	<header>
+		<a href="./index.html"><img src="./images/ffc_logo.png" alt="Forward Fitness Club logo"></a>
+	</header>
+	
+	<!-- Use nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="./classes.html">Classes</a></li>
+			<li><a href="./nutrition.html">Nutrition</a></li>
+			<li><a href="./contact.html">Contact</a></li>
+		</ul>	
+	</nav>
+
+	<!-- Use main to add main content of the webpage  -->
+	<main class="contact">	
+		<h2>Ready to get started?</h2>
+		<h2>Complete the form below to begin your free trial</h2>
+		
+		<div class="contact-section">
+		<form> <!-- Start Form-->
+			<label for="fName">First Name:</label>
+			<input type="text" name="fName" id="fName">
+			
+			<label for="lName">Last Name:</label>
+			<input type="text" name="lName" id="lName">
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email">
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" name="phone" id="phone">
+		
+			<p>I would like more information about: </p>
+			<ul>
+				<li><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbox">Group Fitness</li>
+				<li><input type="checkbox" name="ptrain" id="ptrain" value="ptrain" class="chkbox">Personal Training</li>
+				<li><input type="checkbox" name="nutr" id="nutr" value="nutr" class="chkbox">Nutrition</li>
+			</ul>
+		
+			<label for="refer">Referral:</label>
+				<select name="refer" id="refer">
+					<option value="ad">Advertisement</option>
+					<option value="friend">Friend</option>
+					<option value="google">Google</option>
+					<option value="social">Social Media</option>
+					<option value="other">Other</option>
+				</select>
+				
+			<label for="ques">Questions?</label>	
+			<textarea name="ques" id="ques" rows="3" cols="25"></textarea>
+				
+			<input type="submit" value="Submit" id="submit" class="btn1" onclick="win()">	
+			<input type="reset" value="Reset" id="reset" class="btn2">
+		</form>
+
+		<div class="contact-info-box">
+			<div class='contact-info' >
+				<p class='heading'>Location:</p>
+					<p class='content'>25743 Bloom Court<br>
+					Locket,GA 85524</p>
+			</div>
+
+			<div class='contact-info' >
+				<p class='heading'>Phone Number:</p>
+					<p class='content'><a class="mobile" href="tel:8145559608">(814)555-9608</a>
+					<span class="desktop">(814)555-9608</span></p>
+			</div>
+
+			<div class='contact-info' >
+				<p class='heading'>Email Address:</p>
+					<p class='content'><a href="mailto:forwardfitness@club.net" class="contact">forwardfitness@club.net</a></p>
+			</div>
+		</div>
+		</div>
+	</main>
+	
+	<!-- Use footer to add footer content of webpage -->
+	<footer>
+		&copy; Copyright 2015. All Rights Reserved.<br>
+		<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
+	</footer>
+	
+	</div>
+</body>
+
+</html>
